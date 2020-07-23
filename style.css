@@ -1,6 +1,7 @@
 body {
-  background: #dfe7ef;
+  background: url("https://images.unsplash.com/photo-1511379938547-c1f69419868d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80");
   font-family: "Bitter", serif;
+  background-size: cover;
 }
 
 * {
@@ -32,7 +33,7 @@ body {
 }
 
 .player {
-  background: #eef3f7;
+  background-color:rgba(0, 0, 0, 0.5);
   width: 410px;
   min-height: 480px;
   box-shadow: 0px 15px 35px -5px rgba(50, 88, 130, 0.32);
@@ -274,7 +275,7 @@ body {
 }
 
 .album-info {
-  color: #71829e;
+  color: white;
   flex: 1;
   padding-right: 60px;
   user-select: none;
